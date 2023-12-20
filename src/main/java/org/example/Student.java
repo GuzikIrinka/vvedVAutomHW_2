@@ -13,6 +13,7 @@ public class Student implements Component{
         System.out.println(this.getClass().getName().substring(4) + " " + name);
     }
 
+    
     @Override
     public int getCountPeople() {
         return 1;
