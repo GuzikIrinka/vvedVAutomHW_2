@@ -2,21 +2,21 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        Component student1 = new Student("Иван");
+        Component student1 = new Student("Матвей");
         Component student2 = new Student("Илья");
-        Component student3 = new Student("Игорь");
+        Component student3 = new Student("Ольга");
 
-        Component student4 = new Student("Ольга");
-        Component student5 = new Student("Оксана");
-        Component student6 = new Student("Оскар");
+        Component student4 = new Student("Екатерина");
+        Component student5 = new Student("Марина");
+        Component student6 = new Student("Олег");
 
-        Component teacher1 = new Teacher("Светлана Анатольена");
-        Component teacher2 = new Teacher("Сергей Стефанович");
-        Component teacher3 = new Teacher("Георгий Николаевич");
+        Component teacher1 = new Teacher("Мария Сергеевна");
+        Component teacher2 = new Teacher("Наталья Александровна");
+        Component teacher3 = new Teacher("Игорь Петрович");
 
-        Group group1 = new Group("Подгруппа 1");
-        Group group2 = new Group("Подгруппа 2");
-        Group classA = new Group("Класс А");
+        Group group1 = new Group("Класс 5");
+        Group group2 = new Group("Класс 6");
+        Group classA = new Group("Буква В");
 
         group1.addComponent(teacher1);
         group1.addComponent(student1);
