@@ -10,10 +10,10 @@ public class ComponentTest {
 
     @BeforeAll
     static void init() {
-        student = new Student("Лев");
-        teacher = new Teacher("Сергей Стефанович");
-        group = new Group("Подгруппа");
-        classA = new Group("Класс А");
+        student = new Student("Степан");
+        teacher = new Teacher("Ирина Николаевна");
+        group = new Group("Класс");
+        classA = new Group("Буква В");
         group.addComponent(student);
         classA.addComponent(teacher);
         classA.addComponent(group);
